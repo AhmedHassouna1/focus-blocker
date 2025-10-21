@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="options.css" />
+  <title>إعدادات Focus Blocker</title>
+</head>
+<body>
+  <div class="wrap">
+    <h1>إعدادات Focus Blocker</h1>
+
+    <label>قائمة المواقع المحظورة (سطر لكل موقع)</label>
+    <textarea id="sites"></textarea>
+
+    <div class="row">
+      <button id="save">حفظ</button>
+      <button id="clear">مسح</button>
+    </div>
+
+    <hr />
+
+    <h3>إحصائيات</h3>
+    <div id="stats">جارٍ التحميل...</div>
+
+    <p class="hint">مثال: <code>youtube.com</code> أو <code>*.facebook.com</code></p>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>

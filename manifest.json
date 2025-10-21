@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Focus Blocker — v2.0",
+    "description": "مانع مواقع التشتت مع مؤقت، إشعارات، عداد تقدّم، واستراحات قابلة للتخصيص. كل شيء محلي.",
+    "version": "2.0.0",
+    "icons": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "action": {
+      "default_popup": "popup/popup.html",
+      "default_title": "Focus Blocker"
+    },
+    "options_page": "options/options.html",
+    "background": {
+      "service_worker": "service_worker.js"
+    },
+    "permissions": [
+      "storage",
+      "alarms",
+      "tabs",
+      "scripting",
+      "notifications"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ]
+  }
+  
