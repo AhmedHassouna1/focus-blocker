@@ -1,0 +1,12 @@
+# Chrome Extension build files
+*.zip
+*.crx
+*.pem
+
+# Node
+node_modules/
+npm-debug.log
+
+# System
+.DS_Store
+Thumbs.db
